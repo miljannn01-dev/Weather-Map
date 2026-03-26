@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather & Map Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>🌤 Weather Finder</h1>
+
+    <div class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter city (e.g., Davao)">
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <div id="weatherResult"></div>
+    <div id="map"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+  <!-- Google Maps -->
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC7jJfgpwDI4SU8CmxD3OUsgIJ_OXpnl8&callback=initMap">
+  </script>
+
+</body>
+</html>
