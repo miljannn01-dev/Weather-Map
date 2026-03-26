@@ -28,4 +28,4 @@ Weather & Map Finder is a simple web application that allows users to search for
 ---
 
 ## 👤 Author
-**Your Name Here**
+Miljan Ortega
